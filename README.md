@@ -1,1 +1,1 @@
-# OBWH-AHK - this is wallhack for cs:go game
+# OBWH-AHK - wallhack for cs:go game
