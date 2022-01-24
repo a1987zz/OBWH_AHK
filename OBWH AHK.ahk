@@ -20,7 +20,7 @@ If(!ErrorLevel) {
 PID := ErrorLevel
 
 base := GetDllBase("client.dll", ErrorLevel)
-Address := base + 1878488
+Address := base + 1895704
 
 hProcess := DllCall("OpenProcess", "UInt", PROCESS_VM_WRITE | PROCESS_VM_OPERATION
                                  , "Int",  False
