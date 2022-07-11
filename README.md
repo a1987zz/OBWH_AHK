@@ -8,9 +8,10 @@ This does the same as r_drawothermodels 2 command but without touching the cvar,
 
 How it works
 This program patches assembly code produced by compiling the following line of the game code:
-
+```
 int extraFlags = 0;
 if ( r_drawothermodels.GetInt() == 2 )
 {	
     extraFlags |= STUDIO_WIREFRAME;	
 }
+```
