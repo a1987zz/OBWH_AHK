@@ -15,8 +15,8 @@ base := csgo.getModuleBaseAddress("client.dll")
 
 Pattern := [0x83, 0xF8, "??", 0x8B, 0x45, 0x08, 0x0F]
 
-addres := csgo.modulePatternScan("client.dll", Pattern*)
-offsetwallhack := (addres - base) + 2
+address := csgo.modulePatternScan("client.dll", Pattern*)
+offsetwallhack := (address - base) + 2
 
 F10::
 t := !t
